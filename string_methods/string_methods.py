@@ -17,7 +17,7 @@ message = "Hello There. My name is Sadik Turan"
 # message = message.center(50,'*')  verilen bilgiyi 50 karakterlik bir bilgi içerisine alır ortalar ve boş karakterler yerine '*' koyar
 
 
-
+asd
 
 
 
