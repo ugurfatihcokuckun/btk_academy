@@ -13,9 +13,9 @@
 # print(len(numbers))
 # print(numbers[2])
 
-userA = ["Fatih", 26]
-userB = ["Çınar", 2]
-users = [userA, userB]
-print(users)
-print(users[1])
-print(users[1][0])
+# userA = ["Fatih", 26]
+# userB = ["Çınar", 2]
+# users = [userA, userB]
+# print(users)
+# print(users[1])
+# print(users[1][0])
