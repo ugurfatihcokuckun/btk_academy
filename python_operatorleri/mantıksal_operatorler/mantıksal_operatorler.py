@@ -29,20 +29,20 @@
 # print(f"öğrenci geçti {result}, {gecti}")
 
 
-ad = input("ad: ")
-kilo = float(input("kilo: "))
-boy = float(input("boy: "))
+# ad = input("ad: ")
+# kilo = float(input("kilo: "))
+# boy = float(input("boy: "))
 
-formül = kilo / boy ** 2
+# formül = kilo / boy ** 2
 
-result = (formül > 0) and (formül < 18.4)
-print(f"Oran {formül}, Zayif", {result})
+# result = (formül > 0) and (formül < 18.4)
+# print(f"Oran {formül}, Zayif", {result})
 
-result = (formül > 18.5) and (formül < 24.9)
-print(f"Oran {formül}, Normal", {result})
+# result = (formül > 18.5) and (formül < 24.9)
+# print(f"Oran {formül}, Normal", {result})
 
-result = (formül > 25) and (formül < 29.9)
-print(f"Oran {formül}, Kilolu", {result})
+# result = (formül > 25) and (formül < 29.9)
+# print(f"Oran {formül}, Kilolu", {result})
 
-result = (formül > 30) and (formül < 34.9)
-print(f"Oran {formül}, obez", {result})
+# result = (formül > 30) and (formül < 34.9)
+# print(f"Oran {formül}, obez", {result})
