@@ -17,22 +17,22 @@
 
 # print(sehirler)
 
-"""
-def add(a,b,c=0,d=0,e=0):
-    return sum((a,b,c,d,e))
 
-print(add(10,20))
-print(add(10,20,30))
-print(add(10,20,30,40,50))
+# def add(a,b,c=0,d=0,e=0):
+#     return sum((a,b,c,d,e))
+
+# print(add(10,20))
+# print(add(10,20,30))
+# print(add(10,20,30,40,50))
 
 
 
-def add(*params):
-    return sum((params))
+# def add(*params):
+#     return sum((params))
 
-print(add(10,20))
-print(add(10,20,30))
-print(add(10,20,30,40,50,60,70,80))
+# print(add(10,20))
+# print(add(10,20,30))
+# print(add(10,20,30,40,50,60,70,80))
 
 
 
@@ -47,16 +47,16 @@ print(add(10,20,30,40,50,60,70,80))
 
 
 
-def add(*params):
-    sum = 0
-    for n in params:
-        sum = sum + n
-    return sum
+# def add(*params):
+#     sum = 0
+#     for n in params:
+#         sum = sum + n
+#     return sum
 
-print(add(10,20))
-print(add(10,20,30))
-print(add(10,20,30,40,50,60,70,80))
-"""
+# print(add(10,20))
+# print(add(10,20,30))
+# print(add(10,20,30,40,50,60,70,80))
+
 """
 def displayUser(**params):
     for key,value in params.items():
