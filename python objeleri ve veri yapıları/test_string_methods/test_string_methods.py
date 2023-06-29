@@ -36,7 +36,7 @@ course = "Python Kursu: Bastan Sona Python Programlama Rehberiniz (40 saat)"
 
 # result = "Hello World".replace("World", "There") s10
 
-result = course.split(" ")
+# result = course.split(" ")
 
 
 

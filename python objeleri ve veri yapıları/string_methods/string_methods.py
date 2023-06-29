@@ -1,7 +1,7 @@
 message = "Hello There. My name is Sadik Turan"
 
 # message = message.upper() bütün karakterleri büyük karf yapar
-# message = message.lower() bütün karakterleri küçük hard yapar
+# message = message.lower() bütün karakterleri küçük harf yapar
 # message = message.title() bütün baş harfleri büyük harf yapar
 # message = message.capitalize() sadece baş harfi büyük yapar
 # message = message.strip() sağ ve soldaki boşluk karakterlerini siler
