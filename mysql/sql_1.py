@@ -44,6 +44,20 @@ def insertProducts(list):
         connection.close()
         print("database bağlantısı kapandı")
 
+
+def getProducts():
+    connection = mysql.connector.connect(host="localhost",user="root",password="377AqSwDe",database="node-app")
+    cursor = connection.cursor()
+
+    #cursor.execute("SELECT * From Products")
+    cursor.execute("SELECT name,price From Products")
+    result = cursor.fetchall()
+    for product in result:
+        #print(product)
+        print(f"name: {product[0]} price: {product[1]}")
+
+getProducts()
+
 list = []
 
 while True:
